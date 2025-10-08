@@ -1,14 +1,11 @@
 package logica_basica_dia1;
 
-import java.util.Scanner;
-
-import dia2_estructurasdecontrol.CalculadorDeViajes;
-import dia2_estructurasdecontrol.SistemaAunteticacion;
-
+import dia3_Bucles.SumaConValidacion;
 
 public class Main {
 
 	public static void main(String[] args) {
+		
 		
 		
 	}

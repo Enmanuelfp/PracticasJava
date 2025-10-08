@@ -30,14 +30,12 @@ public class CalculadorDeViajes {
 		
 		
 		
-		if(distancia<100) {
-			costoviaje =  0.50*distancia;
-		}
-		if (distancia>=100 && distancia <=500) {
-			costoviaje =  0.40*distancia;
-		}
-		if (distancia>500) {
-			costoviaje =  0.30*distancia;
+		if(distancia < 100) {
+		    costoviaje = 0.50 * distancia;
+		} else if (distancia <= 500) {  
+		    costoviaje = 0.40 * distancia;
+		} else {
+		    costoviaje = 0.30 * distancia;
 		}
 		
 		if (tipoVehiculo.equalsIgnoreCase("moto")) {

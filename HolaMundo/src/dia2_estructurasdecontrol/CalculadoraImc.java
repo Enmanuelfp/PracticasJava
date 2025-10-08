@@ -43,7 +43,7 @@ public class CalculadoraImc {
 	}
 	
 	public Double imcCalculador(double altura, double peso) {
-		double  imc = peso/(altura*2);
+		double  imc = peso/(altura*altura);
 		return imc;
 	}
 }	

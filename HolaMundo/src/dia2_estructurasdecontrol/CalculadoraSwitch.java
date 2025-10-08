@@ -37,10 +37,19 @@ public class CalculadoraSwitch {
 			resultado = numero1*numero2;
 			break;
 		case "/":
-			resultado = numero1/numero2;
-			break;
-		}
+			if (numero2 != 0) {
+		        resultado = numero1 / numero2;
+		    } else {
+		        System.out.println("Error: No se puede dividir por cero");
+		        resultado = Double.NaN; 
+		    }
+		    break;
+		default:
+		    System.out.println("Operador no válido");
+		    resultado = Double.NaN;
 		
+		
+		}
 		return resultado;
 	}
 }
