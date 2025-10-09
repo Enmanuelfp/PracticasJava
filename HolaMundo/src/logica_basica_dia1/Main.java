@@ -1,8 +1,6 @@
 package logica_basica_dia1;
 
-import dia4_Array_Colecciones.ArrayListNombres;
-import dia4_Array_Colecciones.ContarParesImpares;
-import dia4_Array_Colecciones.MatrizMultiplicacion;
+import dia4_Array_Colecciones.EstadisticasNotas;
 
 public class Main {
 
