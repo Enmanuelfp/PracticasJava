@@ -1,9 +1,9 @@
 package logica_basica_dia1;
 
-import dia5_POO_polimorfismo.Circulo;
-import dia5_POO_polimorfismo.Figura;
-import dia5_POO_polimorfismo.Rectangulo;
-import dia5_POO_polimorfismo.Triangulo;
+import dia5_POO_polimorfismo_figurageometrica.Circulo;
+import dia5_POO_polimorfismo_figurageometrica.Figura;
+import dia5_POO_polimorfismo_figurageometrica.Rectangulo;
+import dia5_POO_polimorfismo_figurageometrica.Triangulo;
 
 public class Main {
 

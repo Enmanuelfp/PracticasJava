@@ -1,4 +1,4 @@
-package dia5_POO_polimorfismo;
+package dia5_POO_polimorfismo_figurageometrica;
 
 public class Circulo extends Figura {
 

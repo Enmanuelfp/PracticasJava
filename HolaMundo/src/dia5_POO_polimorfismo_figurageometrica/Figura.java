@@ -1,4 +1,4 @@
-package dia5_POO_polimorfismo;
+package dia5_POO_polimorfismo_figurageometrica;
 
 public abstract class Figura {
     protected String color;

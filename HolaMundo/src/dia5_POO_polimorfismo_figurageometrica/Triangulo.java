@@ -1,23 +1,22 @@
-package dia5_POO_polimorfismo;
+package dia5_POO_polimorfismo_figurageometrica;
 
-public class Rectangulo extends Figura{
+public class Triangulo extends Figura {
 	
 	private double base;
 	private double altura;
 	
-	 public Rectangulo() {
-	        super("Negro"); 
-	    }
-	
-	  public Rectangulo(String color, double base, double altura) {
-	        super(color);  
+	 public Triangulo(String color, double base, double altura) {
+	        super(color);
 	        this.base = base;
 	        this.altura = altura;
 	    }
 	
+	 
 	
-	
-	
+	  public Triangulo() {
+	        super("Negro"); 
+	    }
+
 	public double getBase() {
 		return base;
 	}
@@ -36,12 +35,14 @@ public class Rectangulo extends Figura{
 
 	@Override
 	public double calcularArea() {
-		return base * altura;
+		double area = (base*altura)/2;
+		return area;
 	}
 
 	@Override
 	public double calcularPerimetro() {
-		return 2 * (base + altura);
+		double hipotenusa = Math.sqrt(base * base + altura * altura);
+        return base + altura + hipotenusa;
 	}
 
 }
